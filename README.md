@@ -19,7 +19,7 @@ Function sendMSG:
     subject = Inform email subject #Required
     body_message = Inform email message #Required
     
-How to use Example:
+How to use class example:
   
   With passsword:
   
@@ -56,7 +56,7 @@ Function checkPing:
   No extra parameters needed 
   
 
-How to use example:
+How to use class example:
 
     for domain in ['186.202.153.153', 'www.google.com.br', 'minhacasa.edu.br']:
       s = domainCheck(domain,<SMTP_SERVER>,<SMTP_PORT>,<MY_EMAIL>,<MY_PASSWORD>)
